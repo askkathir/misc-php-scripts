@@ -9,6 +9,7 @@ You will need to provide a urls.txt file with each URLs you whish to redirect fr
 
 * * *
 http://www.old-domain.com/url-to-redirect
+
 http://www.old-domain.com/another-url-to-redirect
 * * *
 

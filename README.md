@@ -8,9 +8,9 @@ For example, it can be used if your host doesn't allow you to set redirect URLs 
 You will need to provide a urls.txt file with each URLs you whish to redirect from. for example :
 
 * * *
-http://www.old-domain.com/url-to-redirect
+http://www.old-domain.com/url-to-redirect/
 
-http://www.old-domain.com/another-url-to-redirect
+http://www.old-domain.com/another-url-to-redirect/
 * * *
 
 Then, set the constant in this file, particularly the 'old domain' and 'new domain' constants.
@@ -32,3 +32,9 @@ php generate-redirects.php
 
 A folder 'generated-urls' should be created with all the corresponding folders and an index.php file.
 The index.php file will make the redirection individually for each pages.
+
+### Limitations
+
+* The list of domain names must end with '/'. 
+* It doesn't support redirecting 'files'. For example, http://www.domain.com/file.php. This will end up with a structure like /file.php/index.php where 'file.php' will be a directory.
+

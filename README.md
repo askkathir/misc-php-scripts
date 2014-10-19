@@ -7,10 +7,10 @@ For example, it can be used if your host doesn't allow you to set redirect URLs 
 
 You will need to provide a urls.txt file with each URLs you whish to redirect from. for example :
 
----
+* * *
 http://www.old-domain.com/url-to-redirect
 http://www.old-domain.com/another-url-to-redirect
----
+* * *
 
 Then, set the constant in this file, particularly the 'old domain' and 'new domain' constants.
 In this case, if you want to redirect from old-domain.com to new-domain.com:
